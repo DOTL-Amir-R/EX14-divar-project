@@ -1,0 +1,29 @@
+
+/*******************************************
+Components
+********************************************/
+.parts-btn-header{ 
+    padding: 0.4375rem 0.57rem;
+}
+.btn-hover-header:hover{
+    background-color: rgba(0,0,0,.04);
+    color: #303030;
+}
+.btn-header{
+	background-color: #ffffff;
+	border: #ffffff solid 0.0625rem; 
+	color: #707070;
+	transition: .3s;
+}
+.make-adver-btn-header{
+    background-color: #a62626;
+	border: #ffffff solid 0.0625rem; 
+	color: #ffffff;
+	transition: .3s;
+}
+.make-adver-btn-header:hover{
+    background-color:#be3737 ;
+
+}
+/**********Card-components*********/
+

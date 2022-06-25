@@ -1,0 +1,61 @@
+@import url(./reset.css);
+@import url(./components.css);
+@import url(./util.css);
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+/*************Colors******************/
+:root{
+	--bs-my-gray:#565656b8;
+	--bs-my-gray-2:#0000008f;
+    --bs-my-gray-3: rgba(0,0,0,.56);
+}
+.my-gray-color{
+	color:var(--bs-my-gray)
+}
+.my-gray-color-2{
+	color:var(--bs-my-gray-2)
+}
+.my-gray-color-3{
+	color:var(--bs-my-gray-3)
+}
+/*******************************************
+Header section
+********************************************/
+.logo-divar{
+	width: 3rem;
+	height: 3rem;
+}
+.logo-header-divar{
+	height: 1.5rem;
+}
+
+.search-input-header{
+	outline: none;
+	border:none;
+	width: 23.46rem;
+	font-size: .875rem;
+}
+.search-input-header::placeholder{
+	color:var(--bs-my-gray)
+}
+
+/*******************************************
+Card section
+********************************************/
+.card-container{
+    width: 79.167%;
+}
+.side-bar-container{
+	width: 17.5%;
+}
+
+
